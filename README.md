@@ -9,4 +9,3 @@ Nueva versión 08 06 2023:
   *Validaciones correctas
   *Ajax
   *Consumir API
-En Winrar
