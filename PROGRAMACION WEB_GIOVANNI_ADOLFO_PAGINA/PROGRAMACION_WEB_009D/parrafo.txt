@@ -1,0 +1,36 @@
+        <br class = "row">
+            <nav id="nav" class="navbar navbar-expand-md navbar-light p-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand">
+                        <span class="text-primary fs-5 fw-bold">PetShop</span>
+                    </a>
+                    <button type="button" class="navbar-toggler" 
+                    data-bs-toggle="collapse" data-bs-target="#MenuNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="MenuNav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nosotros.html">
+                                    Nosotros
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ingresar.html">
+                                    Inicia sesión
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="registro.html">
+                                    Regístrate
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>

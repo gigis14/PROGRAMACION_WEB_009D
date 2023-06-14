@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!---CSS Bootstrap-->
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous"
+    >
+<!---Fin-->
+
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!--navbar-->
+        <div id="nav2"></div>
+        <br>
+
+        <!-- carrusel -->
+        
+        <div class= "row">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/foto1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/foto2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/foto3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>            
+        </div>
+        <!--productos cartas-->
+        <br>
+        <div class="album py-2 bg-light">
+
+            <div class="container">
+    
+                <div id="product-item" class="row">
+    
+                <!-- Division de la pantalla en 12 columnas (small(12), medium(6), large(4), xl(3)) -->
+    
+                    <!-- PRODUCTO 1 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        EN OFERTA
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $13.000
+                                        </span>
+    
+                                        <span class="sale-real-price">
+                                            <s>$20.000</s>
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                    <!-- PRODUCTO 2 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        DISPONIBLE
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $20.000
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                    <!-- PRODUCTO 3 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        AGOTADO
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $20.000
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary disabled">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary disabled">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                    <!-- PRODUCTO 4 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        EN OFERTA
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $13.000
+                                        </span>
+    
+                                        <span class="sale-real-price">
+                                            <s>$20.000</s>
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                    <!-- PRODUCTO 5 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        EN OFERTA
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $13.000
+                                        </span>
+    
+                                        <span class="sale-real-price">
+                                            <s>$20.000</s>
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                    <!-- PRODUCTO 6 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        EN OFERTA
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $13.000
+                                        </span>
+    
+                                        <span class="sale-real-price">
+                                            <s>$20.000</s>
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+                    
+                    <!-- PRODUCTO 7 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        DISPONIBLE
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $20.000
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+                    
+                    <!-- PRODUCTO 8 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        AGOTADO
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $20.000
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary disabled">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary disabled">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                    <!-- PRODUCTO 9 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        EN OFERTA
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $13.000
+                                        </span>
+    
+                                        <span class="sale-real-price">
+                                            <s>$20.000</s>
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                    <!-- PRODUCTO 10 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        EN OFERTA
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $13.000
+                                        </span>
+    
+                                        <span class="sale-real-price">
+                                            <s>$20.000</s>
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                    <!-- PRODUCTO 11 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        EN OFERTA
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $13.000
+                                        </span>
+    
+                                        <span class="sale-real-price">
+                                            <s>$20.000</s>
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+                    <!-- PRODUCTO 12 -->
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card mb-4 box-shadow">
+                            <!-- div.text-center = centra todo lo que contiene -->
+                            <div class="text-center">
+    
+                                <img class="card-img-top thumbnail-product" src="img/prod1.jpg" alt="...">
+                            </div>
+    
+                                <div class="card-body">
+    
+                                    
+                                    <!-- TITULO DE LA CARTA  -->
+                                    <!-- <h5 class="card-title">NATH Kitty</h5> -->
+    
+                                    <!-- p.card-text = agregar texto, clase aplicada -->
+                                    <p class="card-text">
+                                    
+                                    <!-- lead = letras grandes, claras, y delgadas -->
+                                    <!-- fw-bold = negrita -->
+                                    <div class="lead text-secondary fw-bold">
+                                        EN OFERTA
+                                    </div>
+                                    <br>
+    
+                                    <!-- text-danger = colorea el texto con rojo (peligro) -->
+                                    <div class="lead text-danger">
+    
+                                        <!-- <span> = separa el texto en espacios horizontalmente, en lugar de verticalmente -->
+                                        <span class="sale-offer-price">
+                                        $13.000
+                                        </span>
+    
+                                        <span class="sale-real-price">
+                                        <s>$20.000</s>
+                                        </span>
+                                                            
+                                    </div>
+                                    <br>
+                                    NATH Kitty
+                                    <br>
+    
+                                    <!-- <b> = negrita -->
+                                    <b>
+                                        Descripcion
+                                    </b>
+    
+                                    <!-- "text-truncate" = Si el texto es demasiado largo, aplica puntos suspensivos -->
+                                    <div class="text-truncate">
+                                        Comida para gatitos formulada para satisfacer todas las necesidades nutricionales del felino durante sus primeros 12 meses de vida. Sus ingredientes principales son el pollo y el arroz, ambos muy fáciles de digerir.
+                                        El pienso para gatitos de Nath ha incluido en su receta un extracto botánico natural llamado Inmune Boost. Este actúa como fuente de antioxidantes para facilitar la neutralización de los radicales libres y proteger el sistema inmune y salud del gato bebé.
+                                    </div>
+    
+                                    <br>
+                                    <b>En stock 3 unidades</b>
+    
+                                    <div class="d-flex justify-content-between align-items-center">
+    
+                                    </div>
+    
+                                    </p>                  
+                                    <a href="ficha.html" class="btn btn-primary">Comprar</a>&nbsp;<a href="ficha.html" class="btn btn-primary">Agregar al carrito</a>
+    
+                                </div>
+    
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>    
+        <!--Oferta-->
+        <br>
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div style="text-align: left;">
+                    <img width="70" class="oferta" src="Img/oferta-768x768.jpg">      
+                    <p class="textoOferta">Por compras superiores a $20.000 
+                        ya estás concursando por una prenda de vestira.</p> 
+                    <p class="textoOferta">Mira aquí los premios!!</p>                                      
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+<br>
+
+<!---JSS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous">
+    </script>
+<!---fin-->
+
+<!--IMPORTANTE: NAVBAR Y FOOTER INCLUIDOS-->
+<script>
+    window.onload = function NavFoot() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("nav2").innerHTML = this.responseText;
+        }
+    };
+    xhttp.open("GET", "menu.html", true);
+    xhttp.send();
+    var xhttp2 = new XMLHttpRequest();
+    xhttp2.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("footer2").innerHTML = this.responseText;
+        }
+    };
+    xhttp2.open("GET", "footer.html", true);
+    xhttp2.send();    
+    }
+</script>
+
+
+</body>
+
+<div class="row">
+    <div id="footer2"></div>
+</div>
+<!-- footer -->
+
+
+
+
+
+</html>

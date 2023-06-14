@@ -1,0 +1,28 @@
+
+/*aplica para todos los div*/
+div {
+    border: 1px solid blue;
+}
+
+body{
+    padding: 20px;
+}
+
+.logo{
+    float: left;
+    font-size: 16px;
+}
+
+
+.menu-superior{
+    position: relative;
+    float: right;
+    text-align: right;
+}
+
+/*Mostrar li's en una linea*/
+
+.menu-superior li {
+    display: inline;
+    margin-right: 20px;
+}

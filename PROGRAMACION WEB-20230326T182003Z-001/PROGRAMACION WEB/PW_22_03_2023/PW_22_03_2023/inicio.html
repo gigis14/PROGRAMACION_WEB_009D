@@ -1,0 +1,94 @@
+<!-- Ctrl+K+C = Agregar comentarios -->
+
+<!---BOOTSTRAP-->
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PetShop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+
+    <!---div.container-fluid>div.row>div.col*2-->
+    <div class="container-fluid">
+
+      <!---row = filas-->
+      <!---col = columnas-->
+      <!---col-3 y col-9 = divide las 12 columnas standart en dos partes de 3 y 9-->
+      <div class="row">
+        <div class="col-3">
+          <div class="logo">
+            LOGO
+          </div>
+        </div>
+        <div class="col-9">
+            <!---div>ul>li*4 = Pagina principal-->
+            <!---4 li dentro de ul dentro de div-->
+            <!---Menu-superior = nombre de la clase-->
+          <div class="menu-superior">
+            <ul>
+                <li>
+                  <!---Hipervinculo-->
+                  <a href="inicio.html">
+                    Inicio
+                  </a>
+                </li>
+                <li>
+                  <a href="registro.html">
+                    Registro
+                  </a>
+                </li>
+                <li>
+                  <a href="nosotros.html">
+                    Nosotros
+                  </a>
+                </li>
+                <li>
+                  <a href="ingresar.html">
+                    Ingresar
+                  </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <h1>PetShop</h1>
+        </div>
+      </div>
+      <!-- CARRUSEL -->
+      <div class="row">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/foto1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/foto2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/foto3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
+</html>

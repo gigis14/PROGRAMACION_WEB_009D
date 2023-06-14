@@ -1,0 +1,38 @@
+
+/*Cambiar todos los titulos (h1) a color azul*/
+h1 {
+    color: blue;
+}
+
+/* .nombre = crear y nombrer clase css*/
+.letra-verde {
+
+    color: green;
+}
+
+.letra-roja {
+    color:red;
+}
+
+.letra-morado {
+    color:purple;
+}
+
+/* #nombre-h1 */
+#titulo-principal{
+
+    /* font-style = cambia la fuente de la letra de #titulo-principal*/
+    font-style: italic;
+    color:black;
+
+    /* dotted = estilo del marco (dotted=punteado)*/
+    border: 3px dotted blue;
+    width: 250px; 
+}
+
+h1 {
+    /* !important = fuerza a la maquina a que adopte las caracteristicas donde se encuentra */
+    color:aqua !important;
+}
+
+table>tr*3>td*3
